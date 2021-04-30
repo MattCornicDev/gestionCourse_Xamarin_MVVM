@@ -16,12 +16,8 @@ namespace GestionCourseMVVM.Views
 		public ListeCourses()
 		{
 			InitializeComponent();
-			BindingContext = new ListeCoursesViewModel();
+			BindingContext = new ListeCoursesViewModel(Navigation);
 		}
 
-		void Ajout_Coureur_button_Cliked(object sender, System.EventArgs e)
-        {
-			Console.WriteLine("bouton cliqué");
-        }
 	}
 }

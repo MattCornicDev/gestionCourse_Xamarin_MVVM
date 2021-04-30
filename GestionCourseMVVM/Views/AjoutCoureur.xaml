@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="GestionCourseMVVM.Views.AjoutCoureur">
+    <ContentPage.Content>
+
+        <StackLayout Margin="20,35,20,25"
+                     Orientation="Vertical">
+            <Label Text="Nom" TextColor="Black" FontAttributes="Bold" FontSize="22" HorizontalOptions="Start"/>
+            <Entry Placeholder="Entrer Nom" />
+            <Label Text="Prenom" TextColor="Black" FontAttributes="Bold" FontSize="22" HorizontalOptions="Start"/>
+            <Entry Placeholder="Entrer prénom"/>
+            <Label Text="Adresse" TextColor="Black" FontAttributes="Bold" FontSize="22" HorizontalOptions="Start"/>
+            <Entry Placeholder="Entrer Adresse"/>
+            <Label Text="Course" TextColor="Black" FontAttributes="Bold" FontSize="22" HorizontalOptions="Start"/>
+            <Entry Placeholder="Enter Course"/>
+
+            <Button Text="Valider"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

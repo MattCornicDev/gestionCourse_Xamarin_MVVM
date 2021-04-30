@@ -11,7 +11,7 @@ namespace GestionCourseMVVM
 		{
 			InitializeComponent();
 
-			MainPage = new ListeCourses();
+			MainPage = new NavigationPage(new ListeCourses());
 		}
 
 		protected override void OnStart()

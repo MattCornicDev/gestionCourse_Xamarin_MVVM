@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="GestionCourseMVVM.Views.AjoutCourse">
+    <ContentPage.Content>
+        <StackLayout Margin="30, 30">
+            <Label Text="Titre" TextColor="Black" FontAttributes="Bold" FontSize="22" HorizontalOptions="Start"/>
+            <Entry Placeholder="Le titre de la course"/>
+            <Label Text="Lieu" TextColor="Black" FontAttributes="Bold" FontSize="22" HorizontalOptions="Start"/>
+            <Entry Placeholder="Le lieu où se déroule la course"/>
+            <Label Text="Distance" TextColor="Black" FontAttributes="Bold" FontSize="22" HorizontalOptions="Start"/>
+            <Entry Placeholder="La distance à parcourir"/>
+
+            <Button Text="Valider"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
